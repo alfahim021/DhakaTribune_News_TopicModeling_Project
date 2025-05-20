@@ -50,4 +50,4 @@ This project scrapes news articles from the **Dhaka Tribune** news portal, colle
 
 ## Contact
 
-For more information, contact the project team.
+For questions or help, email: alfahim021@gmail.com
