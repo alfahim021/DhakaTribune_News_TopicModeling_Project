@@ -52,4 +52,4 @@ categories <- list(
 all_news <- map2_df(names(categories), categories, ~ scrape_category(.y, .x, max_articles = 100))
 
 dir.create("data/raw_news", recursive = TRUE, showWarnings = FALSE)
-write_csv(all_news, "data/raw_news/ids_final_project_group_03_news_raw.csv")
+write_csv(all_news, "data/raw_news/dhakatribune_news_raw.csv")
