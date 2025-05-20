@@ -2,7 +2,7 @@ library(tidyverse)
 library(tm)
 library(topicmodels)
 
-input_path <- "data/clean_news/ids_final_project_group_03_news_clean.csv"
+input_path <- "data/clean_news/dhakatribune_news_clean.csv"
 
 df <- read_csv(input_path)
 
